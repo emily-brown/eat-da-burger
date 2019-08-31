@@ -1,11 +1,10 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 
-    background-image: url("/public/assets/images/2754175.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    border-image-repeat: no-repeat;
+    background-image: url(/public/assets/images/2754175.jpg);
     font-family: 'Bowlby One SC', sans-serif;
     font-size: 1em;
     position: relative;
@@ -36,7 +35,6 @@ form {
 
 input#name {
 	width: 25%;
-	/* padding: 2%; */
 }
 
 button.addBurgerButton {
@@ -53,4 +51,22 @@ button.addBurgerButton {
     width: 12%;
     border-radius: 50%;
 
+}
+
+.addBurgerButton:hover {
+    background-color: red;
+}
+
+.burgerAvailable {
+    padding: 1%;
+    margin: -5%;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 14px;
+    border: none;
+}
+
+.burgerAvailable:hover {
+    background-color: black;
+    color: white;
 }
