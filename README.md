@@ -11,7 +11,7 @@ Using MySQL, Node, Express, Handlebars and an ORM, create a burger log based on 
   -- JQuery
   -- Javascript 
   -- Bootstrap 
-  -- Font Awesome
+  -- Goole Fonts
   -- node.js
   -- express.js
   -- mySQL
